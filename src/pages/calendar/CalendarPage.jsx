@@ -15,8 +15,11 @@ import {
   startOfToday,
 } from "date-fns";
 import { useEffect, useState } from "react";
-import { useTask } from "../../context/ContextProvider";
+import { useDispatch, useTask } from "../../context/ContextProvider";
 import { getClientById, getTasks } from "../../services/clientsService";
+import { types } from "../../context/taskReducer";
+
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -24,11 +27,17 @@ function classNames(...classes) {
 
 const CalendarPage = () => {
   const [tasksD, setTasksD] = useState([]);
-  const { id } = useTask();
+  const { id , auth } = useTask();
+  const [nid, setId] = useState(localStorage.getItem("id")?  localStorage.getItem("id") : id);
+  const [nauth, setAuth] = useState(localStorage.getItem("auth")?  localStorage.getItem("auth") : auth);
+
   const today = startOfToday();
   const [selectedDay, setSelectedDay] = useState(today);
   const [currentMonth, setCurrentMonth] = useState(format(today, "MMM-yyyy"));
   const firstDayCurrentMonth = parse(currentMonth, "MMM-yyyy", new Date());
+
+
+  const dispatch = useDispatch();
 
   const days = eachDayOfInterval({
     start: startOfISOWeek(firstDayCurrentMonth),
@@ -51,12 +60,21 @@ const CalendarPage = () => {
     setTasksD(data);
     //console.log(tasksD);
   };
+
+
   useEffect(() => {
     const f = async () => {
       await getClient();
     };
     f();
+
   },[tasksD]);
+
+  useEffect(() => {
+    setId(localStorage.setItem("id",id));
+    setAuth(localStorage.setItem("auth",auth));
+    dispatch({ type: types.login, id:nid})
+  }, [])
 
   
   return (
@@ -80,6 +98,7 @@ const CalendarPage = () => {
               selectedDay={selectedDay}
               classNames={classNames}
               notes={tasksD}
+              setNotes = {setTasksD}
             />
           </div>
         </div>

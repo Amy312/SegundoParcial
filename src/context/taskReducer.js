@@ -1,12 +1,15 @@
 const types = {
     login: "login User",
     logout: "log out User",
-    newId: "id user"
+    dark: "dark theme",
+    light: "light theme"
   };
+  
   
   const initialValues = {
     auth: false,
     id: 0
+
   };
 
   

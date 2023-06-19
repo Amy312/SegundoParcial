@@ -18,7 +18,7 @@ export const getClients = async () => {
     return await calendarAPI.get(`/clients/${id}`);
   };
 
-  export const deleteTask = async (id, taskId) => {
+  export const deleteTask = async (id) => {
     return await calendarAPI.delete(`/tasks/${id}`);
   };
 

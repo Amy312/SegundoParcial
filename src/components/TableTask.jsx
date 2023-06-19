@@ -3,9 +3,10 @@ import Task from "./Task";
 import { useEffect, useState } from "react";
 import AddForm from "./AddForm";
 import { useTask } from "../context/ContextProvider";
+import { deleteTask } from "../services/clientsService";
 
 const TableTask = (props) => {
-  const { selectedDay, classNames, notes } = props;
+  const { selectedDay, classNames, notes, setNotes } = props;
   const { id} = useTask();
  
   const [viewForm, setViewForm] = useState(false);
@@ -38,7 +39,18 @@ const TableTask = (props) => {
         <ol className="mt-4 space-y-1 text-sm leading-6 text-gray-500">
           {selectedDayMeetings.length > 0  || !viewForm? (
             selectedDayMeetings.map((task) => (
-              <Task task={task} key={task.id} classNames={classNames} />
+              <Task 
+              task={task} 
+              key={task.id} 
+              classNames={classNames} 
+              onDelete={(id) =>{
+                setNotes(notes.filter((note) => { return note.id !== id}))
+                deleteTask(id);
+              } }
+              onEdit = {(task) => {
+                setViewForm(true);
+              }}
+               />
             ))
           ) : (
             <p>No hay tareas para hoy :D </p>

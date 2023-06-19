@@ -9,16 +9,29 @@
       "id": 2,
       "user": "azucar",
       "password": "azucar"
+    },
+    {
+      "id": 3,
+      "user": "usuario",
+      "password": "12345678"
+    },
+    {
+      "id": 4,
+      "user": "user123",
+      "password": "12345"
+    },
+    {
+      "id": 5,
+      "user": "huguito",
+      "password": "aaaaa"
+    },
+    {
+      "id": 6,
+      "user": "pancito",
+      "password": "aaaaa"
     }
   ],
   "tasks": [
-    {
-      "id": 1,
-      "idUser": 1,
-      "title": "Enviar examen",
-      "date": "2023-06-19T10:00:00",
-      "type": "R"
-    },
     {
       "id": 2,
       "idUser": 1,
@@ -200,6 +213,82 @@
       "title": "sdds",
       "date": "2023-06-24T13:00",
       "type": "R"
+    },
+    {
+      "id": 28,
+      "idUser": 3,
+      "title": "Ir a comprar pan",
+      "date": "2023-06-23T17:00",
+      "type": "T"
+    },
+    {
+      "id": 29,
+      "idUser": 3,
+      "title": "terminar un proyecto",
+      "date": "2023-06-23T00:00",
+      "type": "R"
+    },
+    {
+      "id": 30,
+      "idUser": 3,
+      "title": "viajar",
+      "date": "2023-07-14T10:00",
+      "type": "T"
+    },
+    {
+      "id": 31,
+      "idUser": 4,
+      "title": "Comer con mi tia",
+      "date": "2023-06-24T13:00",
+      "type": "T"
+    },
+    {
+      "id": 32,
+      "idUser": 4,
+      "title": "resolver ejercicios",
+      "date": "2023-06-24T17:30",
+      "type": "R"
+    },
+    {
+      "id": 33,
+      "idUser": 4,
+      "title": "Cocinar",
+      "date": "2023-07-15T09:26",
+      "type": "T"
+    },
+    {
+      "id": 34,
+      "idUser": 5,
+      "title": "comer pan",
+      "date": "2023-06-23T13:29",
+      "type": "R"
+    },
+    {
+      "id": 35,
+      "idUser": 5,
+      "title": "ayudar al projimo",
+      "date": "2023-06-23T18:32",
+      "type": "T"
+    },
+    {
+      "id": 36,
+      "idUser": "5",
+      "title": "a",
+      "date": "2023-06-19T13:05",
+      "type": "R"
+    },
+    {
+      "id": 37,
+      "idUser": "undefined",
+      "title": "aaa",
+      "date": "2023-06-19T13:36",
+      "type": "R"
+    },
+    {
+      "id": 38,
+      "title": "porigeporije",
+      "date": "2023-06-19T18:32",
+      "type": "T"
     }
   ]
 }
