@@ -1,0 +1,205 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "user": "amy313",
+      "password": "pancito"
+    },
+    {
+      "id": 2,
+      "user": "azucar",
+      "password": "azucar"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "idUser": 1,
+      "title": "Enviar examen",
+      "date": "2023-06-19T10:00:00",
+      "type": "R"
+    },
+    {
+      "id": 2,
+      "idUser": 1,
+      "title": "Mandar video",
+      "date": "2023-06-19T10:00:00",
+      "type": "T"
+    },
+    {
+      "id": 3,
+      "idUser": 1,
+      "title": "aaaaa",
+      "date": "2023-06-19T09:22",
+      "type": "T"
+    },
+    {
+      "id": 4,
+      "idUser": 1,
+      "title": "aaaaa",
+      "date": "2023-06-19T09:22",
+      "type": "T"
+    },
+    {
+      "id": 5,
+      "idUser": 1,
+      "title": "uwuw",
+      "date": "2023-06-19T09:26",
+      "type": "T"
+    },
+    {
+      "id": 6,
+      "idUser": 1,
+      "title": "aa",
+      "date": "2023-06-19T09:29",
+      "type": "T"
+    },
+    {
+      "id": 7,
+      "idUser": 1,
+      "title": "w",
+      "date": "2023-06-19T09:28",
+      "type": "T"
+    },
+    {
+      "id": 8,
+      "idUser": 2,
+      "title": "a",
+      "date": "2023-06-19T09:31",
+      "type": "T"
+    },
+    {
+      "id": 9,
+      "idUser": 2,
+      "title": "yy",
+      "date": "2023-06-19T09:34",
+      "type": "T"
+    },
+    {
+      "id": 10,
+      "idUser": 2,
+      "title": "aaa",
+      "date": "2023-06-19T09:35",
+      "type": "T"
+    },
+    {
+      "id": 11,
+      "idUser": 2,
+      "title": "dsfjhhg",
+      "date": "2023-06-19T09:35",
+      "type": "T"
+    },
+    {
+      "id": 12,
+      "idUser": 2,
+      "title": "dxdd",
+      "date": "2023-06-19T09:36",
+      "type": "T"
+    },
+    {
+      "id": 13,
+      "idUser": 2,
+      "title": "sssdsds",
+      "date": "2023-06-19T12:36",
+      "type": "T"
+    },
+    {
+      "id": 14,
+      "idUser": 1,
+      "title": "sssss",
+      "date": "2023-06-19T09:44",
+      "type": "T"
+    },
+    {
+      "id": 15,
+      "idUser": 1,
+      "title": "aaaa",
+      "date": "2023-06-19T09:47",
+      "type": "T"
+    },
+    {
+      "id": 16,
+      "idUser": 1,
+      "title": "aaa",
+      "date": "2023-06-19T11:47",
+      "type": "T"
+    },
+    {
+      "id": 17,
+      "idUser": 1,
+      "title": "bn",
+      "date": "2023-06-19T09:50",
+      "type": "T"
+    },
+    {
+      "id": 18,
+      "idUser": 1,
+      "title": "gg",
+      "date": "2023-06-25T09:49",
+      "type": "T"
+    },
+    {
+      "id": 19,
+      "idUser": 1,
+      "title": "qqqqq",
+      "date": "2023-06-25T11:48",
+      "type": "T"
+    },
+    {
+      "id": 20,
+      "idUser": 1,
+      "title": "uyy",
+      "date": "2023-06-19T09:52",
+      "type": "T"
+    },
+    {
+      "id": 21,
+      "idUser": 1,
+      "title": "comprar pan",
+      "date": "2023-06-15T09:54",
+      "type": "T"
+    },
+    {
+      "id": 22,
+      "idUser": 1,
+      "title": "ir a comer",
+      "date": "2023-06-15T12:52",
+      "type": "T"
+    },
+    {
+      "id": 23,
+      "idUser": 1,
+      "title": "mes",
+      "date": "2023-06-24T09:58",
+      "type": "T"
+    },
+    {
+      "id": 24,
+      "idUser": 1,
+      "title": "aaaa",
+      "date": "2023-06-24Tundefined",
+      "type": "R"
+    },
+    {
+      "id": 25,
+      "idUser": 1,
+      "title": "ssss",
+      "date": "2023-06-24Tundefined",
+      "type": "T"
+    },
+    {
+      "id": 26,
+      "idUser": 1,
+      "title": "aaaa",
+      "date": "2023-06-24T10:04",
+      "type": "T"
+    },
+    {
+      "id": 27,
+      "idUser": 1,
+      "title": "sdds",
+      "date": "2023-06-24T13:00",
+      "type": "R"
+    }
+  ]
+}

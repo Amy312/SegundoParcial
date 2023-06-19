@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="notification">
+    <path
+        d="M25,14H23V24H9V13a7,7,0,0,1,7-7,6.87,6.87,0,0,1,2.62.51l.75-1.86A8.86,8.86,0,0,0,17,4.06V2H15V4.06A9,9,0,0,0,7,13V24H6v2h6a4,4,0,0,0,8,0h6V24H25ZM16,28a2,2,0,0,1-2-2h4A2,2,0,0,1,16,28Zm7-15a4,4,0,1,0-4-4A4,4,0,0,0,23,13Zm0-6a2,2,0,1,1-2,2A2,2,0,0,1,23,7Z"
+        data-name="14  Notification, Alarm, Bell, Reminder, Ring"></path>
+</svg>
